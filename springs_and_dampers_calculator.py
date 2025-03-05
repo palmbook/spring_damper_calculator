@@ -136,7 +136,7 @@ st.slider("Select Bump Target (% of Critical Damping)", 20, 70, key="damp_target
 st.markdown("This setting is suitable for **{}**".format(st.session_state.damping_display))
 
 st.selectbox(
-    "Bump:Rebound Ratio",
+    "Rebound:Bump Ratio",
     ("2:1", "3:1"), index=1, key="br_ratio", on_change=update_widget
 )
 st.markdown(st.session_state.br_ratio_text)
