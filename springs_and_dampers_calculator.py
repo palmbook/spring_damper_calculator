@@ -72,7 +72,7 @@ if "rear_wheel_rate" not in st.session_state:
 if "damp_target" not in st.session_state:
     st.session_state.damp_target = 50
 if "damping_display" not in st.session_state:
-    st.session_state.damping_display = "a passenger car"
+    st.session_state.damping_display = "a performance/track car"
 if "front_bump" not in st.session_state:
     st.session_state.front_bump = calc_bump(1000 / 4, st.session_state.front_wheel_rate, 0.5)
 if "rear_bump" not in st.session_state:
