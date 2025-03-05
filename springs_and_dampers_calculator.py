@@ -58,7 +58,7 @@ def update_widget():
     
 # Initialize session state for text display
 if "natural_frequency_display" not in st.session_state:
-    st.session_state.natural_frequency_display = "This natural frequency is suitable for a **passenger car**."
+    st.session_state.natural_frequency_display = "This natural frequency is suitable for a **non-aero race car**."
 if "rear_weight_dist" not in st.session_state:
     st.session_state.rear_weight_dist = 50
 if "front_spring_rate" not in st.session_state:
